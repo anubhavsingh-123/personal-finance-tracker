@@ -1,7 +1,31 @@
-This is a full-stack Finance Tracker App built using the MERN stack – MongoDB, Express.js, React, and Node.js. The application allows users to securely sign up and log in using JWT-based authentication. Once logged in, users can manage their income and expenses, view a dashboard summary, and generate visual reports.
+💰 Finance Tracker App – MERN Stack
+📝 Overview
 
-The dashboard displays the user’s total balance, income, and expense summary with a clean, responsive UI. Users can add, view, and delete income or expense items, and also download all their data as an Excel file. Interactive charts, including bar, line, and pie graphs, provide a quick overview of financial activity.
+This is a full-stack Finance Tracker App built using the MERN stack.
+Users can securely sign up and log in with JWT authentication, manage their income/expenses, and view a detailed financial dashboard.
 
-This app uses React Router for navigation, Context API for user session management, and Tailwind CSS for styling. On the backend, it uses Express and MongoDB, with Mongoose for database interaction. Data export is handled using SheetJS, and charts are rendered using Recharts or Chart.js.
+🎯 Features
 
-All routes are protected to ensure only authenticated users can access the dashboard. The design is fully responsive and works across desktop, tablet, and mobile devices.
+Add, view, and delete income & expense entries
+
+Dashboard with balance, income, and expense summary
+
+Download data as Excel
+
+Interactive charts (bar/line/pie) for insights
+
+Fully responsive UI for mobile, tablet, and desktop
+
+🛠️ Tech Stack
+
+Frontend: React, Tailwind CSS, React Router
+
+State Management: Context API
+
+Backend: Node.js, Express.js, MongoDB, Mongoose
+
+Utilities: SheetJS for Excel export, Chart libraries for visuals
+
+🔐 Security
+
+All sensitive routes are protected using JWT-based authentication to ensure only authorized users can access financial data.
